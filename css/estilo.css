@@ -1,0 +1,16 @@
+.wrapper{
+    margin: auto;
+    width: 90vw;
+    min-height: 100vh;
+}
+.titulo{
+    color: brown;
+}
+.card{
+    width: 30%;
+    display: inline-block;
+}
+
+.card-image{
+    width: 100%;
+}
