@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Computadores</title>
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+	<header>
+		<h3><a href="../html/index.html">Computadores</a></h3>
+		<nav>
+			<ul>
+				<li><a href="../html/index.html">INICIO</a></li>
+				<li><a href="../html/accesorios.html">ACCESORIOS</a></li>
+
+				<div class="container-icon">
+					<div class="container-cart-icon">
+						<img src="../source/carrito-de-compras.png" alt="carrito" class="icon-cart">
+
+						<div class="count-products">
+							<span id="contador-productos">0</span>
+						</div>
+					</div>
+				</div>
+		</nav>
+
+		<div class="container-cart-products hidden-cart">
+			<div class="row-product hidden">
+				<div class="cart-product">
+					<div class="info-cart-product">
+						<span class="cantidad-producto-carrito">1</span>
+						<p class="titulo-producto-carrito">Zapatos Nike</p>
+						<span class="precio-producto-carrito">$80</span>
+					</div>
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+						stroke="currentColor" class="icon-close">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				</div>
+			</div>
+
+			<div class="cart-total hidden">
+				<h3>Total:</h3>
+				<span class="total-pagar">$200</span>
+			</div>
+			<p class="cart-empty">El carrito está vacío</p>
+		</div>
+	</header>
+
+
+	<div class="tienda">
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img class="card-image" src="../source/destiny monitor.jpg" alt="monitor">
+				</figure>
+				<div class="info-product">
+					<h2>Alienware AW3423DW Curved Gaming Monitor</h2>
+					<p class="price">$5310365</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img class="card-image" src="../source/gaming i7.jpg" alt="torre">
+				</figure>
+				<div class="info-product">
+					<h2>PC Gaming Intel i7 DDR5 Super Dominance</h2>
+					<p class="price">$11486610</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			
+			<div class="item">
+				<figure>
+					<img class="card-image" src="../source/ultra gear monitor.jpg" alt="torre">
+				</figure>
+				<div class="info-product">
+					<h2>Monitor LG UltraGear Gamer Full HD</h2>
+					<p class="price">$110000</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img class="card-image" src="../source/ryzen monitor.png" alt="monitor">
+				</figure>
+				<div class="info-product">
+					<h2>PC Gamer Ryzen 3 3200G Monitor LG 20”</h2>
+					<p class="price">$2130000</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+
+	<script src="../js/index.js"></script>
+</body>
+
+</html>
